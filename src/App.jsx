@@ -5,6 +5,7 @@ import store from "./redux/store";
 import "./components/styles/navbar.css";
 import "./components/styles/cards.style.css";
 import "./components/styles/pagination.style.css";
+import "./components/styles/detailscard.style.css";
 import "./Pages/Styles/homapage.style.css";
 import "./Pages/Styles/search.style.css";
 

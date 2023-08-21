@@ -63,8 +63,7 @@
 .overviewtext {
   margin-top: 20px;
 }
-.overview {
-}
+
 @media screen and (max-width: 900px) {
   .detailscardroot {
     font-size: 12px;
