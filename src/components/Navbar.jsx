@@ -14,6 +14,7 @@ export default function Navbar({ pagename }) {
   const searchfn = () => {
     navigate("/");
     dispatch(isSearchedReducer(true));
+
     dispatch(searchfetch({ searchparam: input, pageno: "1" }));
     searchParams.set("movie", input);
     setSearchParams(searchParams);

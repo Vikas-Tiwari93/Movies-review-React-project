@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 
 import Cardone from "./Card-one";
 import { Link } from "react-router-dom";
@@ -13,6 +13,7 @@ export default function PaginationComp({ fetchreducer, list, isLoading }) {
 
   useEffect(() => {
     dispatch(fetchreducer(String(page)));
+    window.scrollTo({ top: 0, behaviour: "smooth" });
   }, [page]);
 
   const changepagefn = (i) => {

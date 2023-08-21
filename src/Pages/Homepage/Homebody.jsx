@@ -21,6 +21,7 @@ export default function Homebody() {
   let isLoading = useSelector((state) => {
     return state.PopularSlice.isLoading;
   });
+  console.log(isSearched);
   return (
     <div>
       <Navbar pagename={"logo"} />
