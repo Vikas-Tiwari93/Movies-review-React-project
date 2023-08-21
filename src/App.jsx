@@ -8,6 +8,7 @@ import "./components/styles/pagination.style.css";
 import "./components/styles/detailscard.style.css";
 import "./Pages/Styles/homapage.style.css";
 import "./Pages/Styles/search.style.css";
+import "./Pages/Styles/mediaqueries.style.css";
 
 import {
   RouterProvider,

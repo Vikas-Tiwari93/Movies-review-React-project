@@ -63,15 +63,3 @@
 .overviewtext {
   margin-top: 20px;
 }
-
-@media screen and (max-width: 900px) {
-  .detailscardroot {
-    font-size: 12px;
-  }
-  .poster {
-    display: none;
-  }
-  .textdetails {
-    width: 100%;
-  }
-}

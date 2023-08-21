@@ -1,0 +1,57 @@
+@media screen and (max-width: 900px) {
+  .navroot {
+    flex-direction: column;
+  }
+  .rightnav span {
+    font-size: 14px;
+  }
+  .rightnav input {
+    width: 100px;
+  }
+  .popular {
+    display: none;
+  }
+}
+@media screen and (max-width: 550px) {
+  .searchcomp {
+    display: block;
+  }
+}
+@media screen and (max-width: 650px) {
+  .pageno {
+    text-align: center;
+    font-size: 11px;
+  }
+  .pages-button {
+    gap: 10px;
+    padding: 10px;
+  }
+  .pages-button button {
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .detailscardroot {
+    font-size: 12px;
+  }
+  .poster {
+    display: none;
+  }
+  .textdetails {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .pageno {
+    text-align: center;
+    font-size: 11px;
+  }
+  .pages-button {
+    gap: 10px;
+    padding: 10px;
+  }
+  .pages-button button {
+    padding: 5px;
+  }
+}

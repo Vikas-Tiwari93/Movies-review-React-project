@@ -37,22 +37,3 @@
   color: black;
   font-weight: 700;
 }
-@media screen and (max-width: 900px) {
-  .navroot {
-    flex-direction: column;
-  }
-  .rightnav span {
-    font-size: 14px;
-  }
-  .rightnav input {
-    width: 100px;
-  }
-  .popular {
-    display: none;
-  }
-}
-@media screen and (max-width: 550px) {
-  .searchcomp {
-    display: block;
-  }
-}
