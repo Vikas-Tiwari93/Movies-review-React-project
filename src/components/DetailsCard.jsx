@@ -1,4 +1,3 @@
-import "./styles/detailscard.style.css";
 export default function DetailsCard({
   time,
   rating,
