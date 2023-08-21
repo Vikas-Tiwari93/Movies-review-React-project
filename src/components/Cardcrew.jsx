@@ -2,7 +2,7 @@ export default function Cardcrew({ imgId, name, character }) {
   return (
     <div className="cardcrew">
       {imgId === "null" ? (
-        <img className="no-image" src="./public/images/no-image.png" alt="" />
+        <img className="no-image" src="./images/no-image.png" alt="" />
       ) : (
         <img src={`https://image.tmdb.org/t/p/w500${imgId}`} alt="" />
       )}
